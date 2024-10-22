@@ -1,0 +1,1534 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "courseName": "Introduction to Stock Market",
+      "rating": 4.8,
+      "image": "StockExch.jpg",
+      "description": "Learn the basics of stock markets and how they function.",
+      "detailedInfo": "This course covers the fundamentals of stock markets, including market structure, types of securities, and how to begin investing.",
+      "professor": "Dr. John Doe",
+      "subtopics": [
+        {
+          "name": "Understanding Market Structure",
+          "description": "Introduction to how the stock market is organized and operates."
+        },
+        {
+          "name": "Types of Securities",
+          "description": "Explore different types of securities, including stocks, bonds, and derivatives."
+        },
+        {
+          "name": "Role of Exchanges",
+          "description": "Learn about stock exchanges and their role in the market."
+        },
+        {
+          "name": "How to Buy and Sell Stocks",
+          "description": "Step-by-step guide on executing trades."
+        },
+        {
+          "name": "Market Participants",
+          "description": "Overview of the key players in the market, including brokers, dealers, and institutional investors."
+        },
+        {
+          "name": "Introduction to Market Indices",
+          "description": "Understanding the importance of indices like the S&P 500."
+        },
+        {
+          "name": "Primary vs. Secondary Markets",
+          "description": "The difference between IPOs and secondary market trading."
+        },
+        {
+          "name": "Reading Stock Quotes",
+          "description": "How to interpret stock prices, volumes, and other metrics."
+        },
+        {
+          "name": "The Role of Market Makers",
+          "description": "Explanation of how market makers provide liquidity."
+        },
+        {
+          "name": "Understanding Market Orders",
+          "description": "Different types of orders, including market, limit, and stop orders."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "courseName": "Technical Analysis Essentials",
+      "rating": 4.7,
+      "image": "StockExch2.png",
+      "description": "Master the art of reading charts and identifying trends.",
+      "detailedInfo": "A comprehensive guide to technical analysis, focusing on chart patterns, trendlines, and indicators.",
+      "professor": "Prof. Jane Smith",
+      "subtopics": [
+        {
+          "name": "Introduction to Chart Types",
+          "description": "Overview of line, bar, and candlestick charts."
+        },
+        {
+          "name": "Understanding Trendlines",
+          "description": "How to draw and interpret trendlines."
+        },
+        {
+          "name": "Chart Patterns",
+          "description": "Detailed analysis of common chart patterns like head and shoulders, triangles, and flags."
+        },
+        {
+          "name": "Moving Averages",
+          "description": "Using moving averages to identify trends."
+        },
+        {
+          "name": "Volume Analysis",
+          "description": "The importance of volume in confirming trends."
+        },
+        {
+          "name": "Relative Strength Index (RSI)",
+          "description": "Understanding and applying RSI."
+        },
+        {
+          "name": "Bollinger Bands",
+          "description": "How to use Bollinger Bands to identify volatility."
+        },
+        {
+          "name": "MACD (Moving Average Convergence Divergence)",
+          "description": "A deep dive into MACD and its applications."
+        },
+        {
+          "name": "Support and Resistance Levels",
+          "description": "Identifying key price levels on a chart."
+        },
+        {
+          "name": "Introduction to Fibonacci Retracement",
+          "description": "How to use Fibonacci retracement in technical analysis."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "courseName": "Fundamental Analysis Mastery",
+      "rating": 4.9,
+      "image": "StockExch3.jpg",
+      "description": "Learn how to evaluate a company's financial health.",
+      "detailedInfo": "In-depth exploration of financial statements, ratios, and valuation methods to assess stock value.",
+      "professor": "Dr. Robert Lee",
+      "subtopics": [
+        {
+          "name": "Introduction to Financial Statements",
+          "description": "Overview of balance sheets, income statements, and cash flow statements."
+        },
+        {
+          "name": "Understanding Financial Ratios",
+          "description": "Key ratios like P/E, ROE, and Debt/Equity."
+        },
+        {
+          "name": "Earnings Reports",
+          "description": "How to analyze earnings reports and what to look for."
+        },
+        {
+          "name": "Company Valuation Methods",
+          "description": "Different approaches to valuing a company, including DCF and comparable analysis."
+        },
+        {
+          "name": "Industry Analysis",
+          "description": "How to assess a company's position within its industry."
+        },
+        {
+          "name": "Economic Indicators",
+          "description": "The impact of macroeconomic factors on stock prices."
+        },
+        {
+          "name": "Management Evaluation",
+          "description": "Assessing the quality and effectiveness of a company's management."
+        },
+        {
+          "name": "Understanding Dividends",
+          "description": "The role of dividends in stock valuation."
+        },
+        {
+          "name": "Growth vs. Value Investing",
+          "description": "Differences between growth and value investment strategies."
+        },
+        {
+          "name": "Introduction to Financial Modeling",
+          "description": "How to build models to project company financials and evaluate investments."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "courseName": "Options Trading Strategies",
+      "rating": 4.6,
+      "image": "Business.jpg",
+      "description": "Explore advanced options strategies for risk management.",
+      "detailedInfo": "This course delves into options trading, including calls, puts, spreads, and straddles, with real-world examples.",
+      "professor": "Prof. Susan Adams",
+      "subtopics": [
+        {
+          "name": "Introduction to Options",
+          "description": "Fundamentals of calls and puts."
+        },
+        {
+          "name": "Options Pricing Models",
+          "description": "Understanding the Black-Scholes model and other pricing models."
+        },
+        {
+          "name": "Basic Options Strategies",
+          "description": "Introduction to covered calls, protective puts, and other basic strategies."
+        },
+        {
+          "name": "Advanced Strategies",
+          "description": "Exploring spreads, straddles, and other complex strategies."
+        },
+        {
+          "name": "Risk Management with Options",
+          "description": "How to use options to hedge and manage risk."
+        },
+        {
+          "name": "Understanding Volatility",
+          "description": "The role of volatility in options trading."
+        },
+        {
+          "name": "Options Greeks",
+          "description": "In-depth analysis of Delta, Gamma, Theta, and Vega."
+        },
+        {
+          "name": "Trading Platforms and Tools",
+          "description": "Overview of popular options trading platforms and analytical tools."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of options strategies in action."
+        },
+        {
+          "name": "Legal and Regulatory Aspects",
+          "description": "Understanding the legal framework governing options trading."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "courseName": "Portfolio Management",
+      "rating": 4.7,
+      "image": "Portfolio.jpg",
+      "description": "Learn to build and manage a diversified investment portfolio.",
+      "detailedInfo": "This course covers the principles of portfolio management, including asset allocation, diversification, and risk assessment.",
+      "professor": "Dr. Emily Clark",
+      "subtopics": [
+        {
+          "name": "Introduction to Portfolio Theory",
+          "description": "Basics of modern portfolio theory and its applications."
+        },
+        {
+          "name": "Asset Allocation Strategies",
+          "description": "How to allocate assets based on risk tolerance and investment goals."
+        },
+        {
+          "name": "Diversification Techniques",
+          "description": "Methods to diversify your portfolio across different asset classes."
+        },
+        {
+          "name": "Risk Assessment",
+          "description": "Tools and techniques to assess and manage portfolio risk."
+        },
+        {
+          "name": "Rebalancing Portfolios",
+          "description": "When and how to rebalance your portfolio to maintain desired risk levels."
+        },
+        {
+          "name": "Active vs. Passive Management",
+          "description": "Comparing active and passive portfolio management approaches."
+        },
+        {
+          "name": "Performance Measurement",
+          "description": "How to measure and analyze portfolio performance."
+        },
+        {
+          "name": "Tax-Efficient Investing",
+          "description": "Strategies to minimize tax liabilities on investment returns."
+        },
+        {
+          "name": "Ethical and ESG Investing",
+          "description": "Incorporating environmental, social, and governance factors into portfolio decisions."
+        },
+        {
+          "name": "Global Investment Strategies",
+          "description": "Exploring global markets and international diversification."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "courseName": "Behavioral Finance",
+      "rating": 4.8,
+      "image": "BehavioralFinance.jpg",
+      "description": "Understand how psychology impacts investment decisions.",
+      "detailedInfo": "This course focuses on the psychological factors that influence investor behavior and market anomalies, including cognitive biases and emotional responses.",
+      "professor": "Dr. Rebecca Thompson",
+      "subtopics": [
+        {
+          "name": "Introduction to Behavioral Finance",
+          "description": "Basics of how psychology affects financial decisions."
+        },
+        {
+          "name": "Cognitive Biases",
+          "description": "Common cognitive biases such as overconfidence and anchoring."
+        },
+        {
+          "name": "Emotional Influences",
+          "description": "How emotions like fear and greed impact investing."
+        },
+        {
+          "name": "Heuristics and Decision-Making",
+          "description": "Exploring mental shortcuts and their effects on financial choices."
+        },
+        {
+          "name": "Market Anomalies",
+          "description": "Identification and analysis of market anomalies like bubbles and crashes."
+        },
+        {
+          "name": "Behavioral Biases in Trading",
+          "description": "Specific biases that affect traders and their decision-making."
+        },
+        {
+          "name": "Impact of Herd Behavior",
+          "description": "How group behavior influences market trends and individual decisions."
+        },
+        {
+          "name": "Strategies to Overcome Biases",
+          "description": "Techniques to mitigate the effects of biases in investment decisions."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples illustrating behavioral finance concepts."
+        },
+        {
+          "name": "Future Trends in Behavioral Finance",
+          "description": "Emerging research and trends in the field of behavioral finance."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "courseName": "Global Stock Markets",
+      "rating": 4.7,
+      "image": "StockExch2.png",
+      "description": "Explore international stock markets and opportunities.",
+      "detailedInfo": "This course covers the structure and dynamics of global markets, including emerging markets and currency risks.",
+      "professor": "Prof. Lisa Green",
+      "subtopics": [
+        {
+          "name": "Introduction to Global Markets",
+          "description": "Overview of the global financial system and international markets."
+        },
+        {
+          "name": "Major Global Stock Exchanges",
+          "description": "Detailed analysis of key stock exchanges around the world."
+        },
+        {
+          "name": "Emerging Markets",
+          "description": "Understanding the characteristics and opportunities in emerging markets."
+        },
+        {
+          "name": "Currency Risks",
+          "description": "Impact of currency fluctuations on international investments."
+        },
+        {
+          "name": "Global Investment Strategies",
+          "description": "Approaches to investing globally and managing international portfolios."
+        },
+        {
+          "name": "International Financial Regulations",
+          "description": "Regulatory frameworks governing global markets."
+        },
+        {
+          "name": "Cross-Border Investment Opportunities",
+          "description": "Identifying and evaluating cross-border investment opportunities."
+        },
+        {
+          "name": "Global Market Trends",
+          "description": "Current trends and future outlook for global stock markets."
+        },
+        {
+          "name": "Impact of Geopolitical Events",
+          "description": "How geopolitical events affect global markets and investment strategies."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Analysis of significant global market events and their impact on investments."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "courseName": "Cryptocurrency and Blockchain",
+      "rating": 4.6,
+      "image": "BlockChain.jpg",
+      "description": "Get started with cryptocurrency trading and blockchain technology.",
+      "detailedInfo": "An introduction to the world of cryptocurrencies, including trading strategies and blockchain technology.",
+      "professor": "Prof. Michael Clark",
+      "subtopics": [
+        {
+          "name": "Introduction to Cryptocurrency",
+          "description": "Basics of cryptocurrencies and their underlying technology."
+        },
+        {
+          "name": "Blockchain Technology",
+          "description": "How blockchain technology works and its applications."
+        },
+        {
+          "name": "Popular Cryptocurrencies",
+          "description": "Overview of major cryptocurrencies like Bitcoin and Ethereum."
+        },
+        {
+          "name": "Cryptocurrency Wallets",
+          "description": "Types of wallets and how to securely store cryptocurrencies."
+        },
+        {
+          "name": "Trading Cryptocurrencies",
+          "description": "Strategies and tools for trading digital currencies."
+        },
+        {
+          "name": "Initial Coin Offerings (ICOs)",
+          "description": "Understanding ICOs and how they fund new cryptocurrency projects."
+        },
+        {
+          "name": "Regulation and Compliance",
+          "description": "Legal and regulatory aspects of cryptocurrency trading."
+        },
+        {
+          "name": "Security and Fraud Prevention",
+          "description": "Protecting yourself from fraud and ensuring security in cryptocurrency transactions."
+        },
+        {
+          "name": "Future of Cryptocurrencies",
+          "description": "Trends and potential future developments in the cryptocurrency space."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Analysis of significant events and trends in the cryptocurrency market."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "courseName": "ETF Trading and Investment",
+      "rating": 4.9,
+      "image": "StockExch.jpg",
+      "description": "Learn to trade and invest in ETFs for diversified exposure.",
+      "detailedInfo": "A complete guide to Exchange-Traded Funds (ETFs), including types, benefits, and trading strategies.",
+      "professor": "Dr. Sarah Johnson",
+      "subtopics": [
+        {
+          "name": "Introduction to ETFs",
+          "description": "Basics of Exchange-Traded Funds and how they work."
+        },
+        {
+          "name": "Types of ETFs",
+          "description": "Different types of ETFs including equity, bond, and commodity ETFs."
+        },
+        {
+          "name": "Benefits of ETFs",
+          "description": "Advantages of investing in ETFs, including diversification and liquidity."
+        },
+        {
+          "name": "ETF Trading Strategies",
+          "description": "Strategies for trading ETFs effectively."
+        },
+        {
+          "name": "Analyzing ETF Performance",
+          "description": "How to evaluate and compare ETF performance."
+        },
+        {
+          "name": "Tax Considerations",
+          "description": "Understanding the tax implications of ETF investments."
+        },
+        {
+          "name": "ETFs vs. Mutual Funds",
+          "description": "Comparing ETFs to mutual funds and other investment vehicles."
+        },
+        {
+          "name": "Creating an ETF Portfolio",
+          "description": "Building a diversified portfolio using ETFs."
+        },
+        {
+          "name": "Risk Management",
+          "description": "Managing risk in ETF investments."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of successful ETF investments and strategies."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "courseName": "Risk Management in Trading",
+      "rating": 4.7,
+      "image": "RiskManagement.jpg",
+      "description": "Learn to manage risk effectively in trading.",
+      "detailedInfo": "This course covers risk assessment, risk management tools, and strategies for minimizing losses.",
+      "professor": "Prof. Anthony Hill",
+      "subtopics": [
+        {
+          "name": "Introduction to Risk Management",
+          "description": "Basics of risk management and its importance in trading."
+        },
+        {
+          "name": "Types of Risk",
+          "description": "Different types of risk including market, credit, and operational risks."
+        },
+        {
+          "name": "Risk Assessment Techniques",
+          "description": "Methods for assessing and measuring risk."
+        },
+        {
+          "name": "Risk Management Tools",
+          "description": "Tools and techniques for managing risk in trading."
+        },
+        {
+          "name": "Developing a Risk Management Plan",
+          "description": "Creating a comprehensive plan to manage trading risk."
+        },
+        {
+          "name": "Hedging Strategies",
+          "description": "Techniques for hedging against various types of risk."
+        },
+        {
+          "name": "Stress Testing",
+          "description": "How to conduct stress tests to assess potential risk scenarios."
+        },
+        {
+          "name": "Risk Management in Different Markets",
+          "description": "Adapting risk management strategies to various market conditions."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of effective risk management in trading."
+        },
+        {
+          "name": "Future Trends in Risk Management",
+          "description": "Emerging trends and technologies in risk management."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "courseName": "Advanced Portfolio Management",
+      "rating": 4.7,
+      "image": "AdvancedPortfolio.jpg",
+      "description": "Optimize your portfolio for risk-adjusted returns.",
+      "detailedInfo": "Covers advanced portfolio management techniques, including diversification, risk assessment, and optimization.",
+      "professor": "Prof. James King",
+      "subtopics": [
+        {
+          "name": "Advanced Portfolio Theory",
+          "description": "In-depth look at advanced concepts in portfolio theory."
+        },
+        {
+          "name": "Quantitative Portfolio Management",
+          "description": "Using quantitative methods to manage and optimize portfolios."
+        },
+        {
+          "name": "Dynamic Asset Allocation",
+          "description": "Techniques for adjusting asset allocation based on changing market conditions."
+        },
+        {
+          "name": "Alternative Investments",
+          "description": "Exploring alternative investments like hedge funds and private equity."
+        },
+        {
+          "name": "Risk-Adjusted Performance Metrics",
+          "description": "Evaluating portfolio performance using risk-adjusted metrics."
+        },
+        {
+          "name": "Behavioral Biases in Portfolio Management",
+          "description": "How behavioral biases impact portfolio management decisions."
+        },
+        {
+          "name": "Advanced Risk Management Techniques",
+          "description": "Tools and strategies for advanced risk management."
+        },
+        {
+          "name": "Portfolio Optimization Algorithms",
+          "description": "Using algorithms to optimize portfolio performance."
+        },
+        {
+          "name": "Global Diversification Strategies",
+          "description": "Techniques for diversifying portfolios across global markets."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of advanced portfolio management practices."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "courseName": "Financial Planning and Analysis",
+      "rating": 4.8,
+      "image": "FinancialPlanning.jpg",
+      "description": "Develop skills in financial planning and analysis for business decisions.",
+      "detailedInfo": "This course covers the essentials of financial planning, including budgeting, forecasting, and financial analysis techniques.",
+      "professor": "Dr. Olivia Brown",
+      "subtopics": [
+        {
+          "name": "Introduction to Financial Planning",
+          "description": "Fundamentals of financial planning and its role in business."
+        },
+        {
+          "name": "Budgeting Techniques",
+          "description": "Creating and managing budgets effectively."
+        },
+        {
+          "name": "Financial Forecasting",
+          "description": "Methods for predicting future financial performance."
+        },
+        {
+          "name": "Financial Statement Analysis",
+          "description": "Analyzing financial statements to make informed decisions."
+        },
+        {
+          "name": "Cost Management",
+          "description": "Techniques for managing and controlling costs."
+        },
+        {
+          "name": "Capital Budgeting",
+          "description": "Evaluating investment opportunities and capital expenditures."
+        },
+        {
+          "name": "Financial Modelling",
+          "description": "Building financial models to support business planning."
+        },
+        {
+          "name": "Risk Assessment in Financial Planning",
+          "description": "Identifying and managing financial risks."
+        },
+        {
+          "name": "Performance Metrics",
+          "description": "Using financial metrics to evaluate performance."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of financial planning and analysis in action."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "courseName": "Market Microstructure",
+      "rating": 4.6,
+      "image": "MarketMicrostructure.jpg",
+      "description": "Understand the intricacies of market operations and trading mechanisms.",
+      "detailedInfo": "Explore how financial markets operate at a granular level, including trading mechanisms, liquidity, and price formation.",
+      "professor": "Dr. Ethan White",
+      "subtopics": [
+        {
+          "name": "Introduction to Market Microstructure",
+          "description": "Overview of market microstructure and its importance."
+        },
+        {
+          "name": "Trading Mechanisms",
+          "description": "How trades are executed and settled in financial markets."
+        },
+        {
+          "name": "Market Liquidity",
+          "description": "Factors affecting market liquidity and its impact on trading."
+        },
+        {
+          "name": "Price Formation",
+          "description": "How prices are determined in financial markets."
+        },
+        {
+          "name": "Order Types and Execution",
+          "description": "Different types of orders and how they are executed."
+        },
+        {
+          "name": "Market Makers and Specialists",
+          "description": "Roles and functions of market makers and specialists."
+        },
+        {
+          "name": "Impact of High-Frequency Trading",
+          "description": "The effects of high-frequency trading on market dynamics."
+        },
+        {
+          "name": "Regulatory Issues",
+          "description": "Regulations affecting market microstructure and trading practices."
+        },
+        {
+          "name": "Market Efficiency",
+          "description": "Concepts of market efficiency and how they are tested."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples illustrating market microstructure concepts."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "courseName": "Value Investing",
+      "rating": 4.8,
+      "image": "ValueInvesting.jpg",
+      "description": "Explore the principles and techniques of value investing.",
+      "detailedInfo": "This course focuses on value investing strategies, including identifying undervalued stocks and assessing intrinsic value.",
+      "professor": "Prof. Laura Scott",
+      "subtopics": [
+        {
+          "name": "Introduction to Value Investing",
+          "description": "Fundamentals of value investing and its principles."
+        },
+        {
+          "name": "Identifying Undervalued Stocks",
+          "description": "Techniques for finding undervalued investment opportunities."
+        },
+        {
+          "name": "Intrinsic Value Calculation",
+          "description": "Methods for calculating the intrinsic value of stocks."
+        },
+        {
+          "name": "Margin of Safety",
+          "description": "The concept of margin of safety in value investing."
+        },
+        {
+          "name": "Value Investing Strategies",
+          "description": "Different strategies and approaches in value investing."
+        },
+        {
+          "name": "Analyzing Financial Statements",
+          "description": "How to use financial statements in value investing."
+        },
+        {
+          "name": "Qualitative Analysis",
+          "description": "Evaluating a company's qualitative factors in value investing."
+        },
+        {
+          "name": "Economic Moats",
+          "description": "Understanding competitive advantages and economic moats."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of successful value investing."
+        },
+        {
+          "name": "Value Investing in Different Markets",
+          "description": "Applying value investing principles across different market conditions."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "courseName": "Technical Analysis for Traders",
+      "rating": 4.7,
+      "image": "TechnicalAnalysis.jpg",
+      "description": "Advanced technical analysis techniques for professional traders.",
+      "detailedInfo": "This course covers advanced technical analysis methods, including complex chart patterns, indicators, and trading systems.",
+      "professor": "Dr. Daniel Moore",
+      "subtopics": [
+        {
+          "name": "Advanced Chart Patterns",
+          "description": "In-depth look at complex chart patterns and their implications."
+        },
+        {
+          "name": "Advanced Indicators",
+          "description": "Exploring advanced technical indicators and their applications."
+        },
+        {
+          "name": "Trading Systems",
+          "description": "Building and implementing technical trading systems."
+        },
+        {
+          "name": "Algorithmic Trading",
+          "description": "Introduction to algorithmic trading and its strategies."
+        },
+        {
+          "name": "Backtesting Techniques",
+          "description": "Methods for backtesting trading strategies."
+        },
+        {
+          "name": "Risk Management in Technical Trading",
+          "description": "Managing risk when using technical analysis techniques."
+        },
+        {
+          "name": "Technical Analysis Software",
+          "description": "Tools and software for advanced technical analysis."
+        },
+        {
+          "name": "Intermarket Analysis",
+          "description": "Analyzing relationships between different markets."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of advanced technical analysis in trading."
+        },
+        {
+          "name": "Future Trends in Technical Analysis",
+          "description": "Emerging trends and technologies in technical analysis."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "courseName": "Investment Banking Fundamentals",
+      "rating": 4.8,
+      "image": "InvestmentBanking.jpg",
+      "description": "Understand the core functions of investment banking and its role in the financial industry.",
+      "detailedInfo": "This course provides an overview of investment banking, including key services, deal structures, and market dynamics.",
+      "professor": "Prof. Jessica Taylor",
+      "subtopics": [
+        {
+          "name": "Introduction to Investment Banking",
+          "description": "Basics of investment banking and its role in the financial industry."
+        },
+        {
+          "name": "Types of Investment Banking Services",
+          "description": "Overview of services such as underwriting, advisory, and trading."
+        },
+        {
+          "name": "Mergers and Acquisitions (M&A)",
+          "description": "Understanding the M&A process and key considerations."
+        },
+        {
+          "name": "Initial Public Offerings (IPOs)",
+          "description": "The process of taking a company public and its implications."
+        },
+        {
+          "name": "Debt and Equity Financing",
+          "description": "Different types of financing and their applications."
+        },
+        {
+          "name": "Financial Modeling in Investment Banking",
+          "description": "Building financial models for valuation and deal analysis."
+        },
+        {
+          "name": "Regulatory Environment",
+          "description": "Regulations affecting investment banking activities."
+        },
+        {
+          "name": "Client Relationship Management",
+          "description": "Managing relationships with clients and stakeholders."
+        },
+        {
+          "name": "Investment Banking Careers",
+          "description": "Exploring career opportunities and skills needed in investment banking."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of investment banking deals and processes."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "courseName": "Financial Engineering",
+      "rating": 4.7,
+      "image": "FinancialEngineering.jpg",
+      "description": "Explore the application of mathematical techniques to financial problems.",
+      "detailedInfo": "This course covers the use of quantitative methods and financial models to solve complex financial problems and create innovative solutions.",
+      "professor": "Dr. Henry Adams",
+      "subtopics": [
+        {
+          "name": "Introduction to Financial Engineering",
+          "description": "Basics of financial engineering and its applications."
+        },
+        {
+          "name": "Quantitative Methods",
+          "description": "Mathematical and statistical methods used in financial engineering."
+        },
+        {
+          "name": "Financial Modeling",
+          "description": "Building and using financial models for analysis and decision-making."
+        },
+        {
+          "name": "Derivatives Pricing",
+          "description": "Techniques for pricing financial derivatives."
+        },
+        {
+          "name": "Risk Management Models",
+          "description": "Models for assessing and managing financial risk."
+        },
+        {
+          "name": "Algorithmic Trading",
+          "description": "Using algorithms for trading and investment strategies."
+        },
+        {
+          "name": "Portfolio Optimization",
+          "description": "Advanced techniques for optimizing investment portfolios."
+        },
+        {
+          "name": "Financial Engineering Tools",
+          "description": "Tools and software used in financial engineering."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of financial engineering applications in real-world scenarios."
+        },
+        {
+          "name": "Future Trends in Financial Engineering",
+          "description": "Emerging trends and innovations in financial engineering."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "courseName": "Corporate Finance",
+      "rating": 4.7,
+      "image": "CorporateFinance.jpg",
+      "description": "Learn about financial management in corporations.",
+      "detailedInfo": "This course covers corporate finance principles, including capital budgeting, capital structure, and financial analysis.",
+      "professor": "Prof. Emily Harris",
+      "subtopics": [
+        {
+          "name": "Introduction to Corporate Finance",
+          "description": "Fundamentals of corporate finance and its importance."
+        },
+        {
+          "name": "Capital Budgeting",
+          "description": "Techniques for evaluating and making capital investment decisions."
+        },
+        {
+          "name": "Capital Structure",
+          "description": "Understanding how firms finance their operations and growth."
+        },
+        {
+          "name": "Dividend Policy",
+          "description": "Decisions related to dividend payments and their implications."
+        },
+        {
+          "name": "Financial Analysis",
+          "description": "Analyzing financial statements and performance metrics."
+        },
+        {
+          "name": "Risk Management in Corporate Finance",
+          "description": "Managing financial risks in a corporate setting."
+        },
+        {
+          "name": "Corporate Valuation",
+          "description": "Methods for valuing a corporation and its assets."
+        },
+        {
+          "name": "Mergers and Acquisitions",
+          "description": "Understanding corporate M&A processes and valuation."
+        },
+        {
+          "name": "Financial Planning",
+          "description": "Strategic financial planning for corporations."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of corporate finance practices and decisions."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "courseName": "Investment Strategies",
+      "rating": 4.8,
+      "image": "InvestmentStrategies.jpg",
+      "description": "Explore various investment strategies to optimize returns.",
+      "detailedInfo": "A comprehensive guide to different investment strategies, including value investing, growth investing, and market timing.",
+      "professor": "Dr. Olivia Walker",
+      "subtopics": [
+        {
+          "name": "Introduction to Investment Strategies",
+          "description": "Overview of various investment strategies and their objectives."
+        },
+        {
+          "name": "Value Investing",
+          "description": "Strategies for identifying and investing in undervalued assets."
+        },
+        {
+          "name": "Growth Investing",
+          "description": "Techniques for investing in high-growth potential companies."
+        },
+        {
+          "name": "Income Investing",
+          "description": "Strategies for generating income through investments."
+        },
+        {
+          "name": "Market Timing",
+          "description": "Approaches for timing market entry and exit."
+        },
+        {
+          "name": "Diversification Strategies",
+          "description": "Techniques for diversifying investments to manage risk."
+        },
+        {
+          "name": "Hedge Funds and Alternative Investments",
+          "description": "Exploring alternative investment vehicles and strategies."
+        },
+        {
+          "name": "Behavioral Investing",
+          "description": "Understanding how psychology impacts investment decisions."
+        },
+        {
+          "name": "Risk Management Strategies",
+          "description": "Techniques for managing risk in investment portfolios."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of successful investment strategies."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "courseName": "Financial Statement Analysis",
+      "rating": 4.8,
+      "image": "FinancialStatementAnalysis.jpg",
+      "description": "Analyze and interpret financial statements for better decision-making.",
+      "detailedInfo": "This course focuses on financial statement analysis techniques, including ratio analysis and financial forecasting.",
+      "professor": "Prof. William Carter",
+      "subtopics": [
+        {
+          "name": "Introduction to Financial Statements",
+          "description": "Basics of financial statements and their components."
+        },
+        {
+          "name": "Income Statement Analysis",
+          "description": "Analyzing the income statement to assess performance."
+        },
+        {
+          "name": "Balance Sheet Analysis",
+          "description": "Evaluating the balance sheet to understand financial position."
+        },
+        {
+          "name": "Cash Flow Statement Analysis",
+          "description": "Interpreting the cash flow statement for liquidity assessment."
+        },
+        {
+          "name": "Ratio Analysis",
+          "description": "Using financial ratios to evaluate company performance."
+        },
+        {
+          "name": "Trend Analysis",
+          "description": "Examining financial trends over time for forecasting."
+        },
+        {
+          "name": "Comparative Analysis",
+          "description": "Comparing financial statements across companies or industries."
+        },
+        {
+          "name": "Financial Forecasting",
+          "description": "Techniques for forecasting future financial performance."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of financial statement analysis in practice."
+        },
+        {
+          "name": "Limitations of Financial Statement Analysis",
+          "description": "Understanding the limitations and potential pitfalls of financial analysis."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "courseName": "Emerging Financial Technologies",
+      "rating": 4.6,
+      "image": "FinancialTech.jpg",
+      "description": "Explore the latest technologies shaping the financial industry.",
+      "detailedInfo": "An overview of emerging technologies in finance, including fintech innovations, blockchain, and artificial intelligence.",
+      "professor": "Dr. Natalie Smith",
+      "subtopics": [
+        {
+          "name": "Introduction to Fintech",
+          "description": "Basics of financial technologies and their impact on the industry."
+        },
+        {
+          "name": "Blockchain Technology",
+          "description": "Understanding blockchain and its applications in finance."
+        },
+        {
+          "name": "Artificial Intelligence in Finance",
+          "description": "Applications of AI and machine learning in financial services."
+        },
+        {
+          "name": "Robo-Advisors",
+          "description": "How robo-advisors are changing investment management."
+        },
+        {
+          "name": "Regtech",
+          "description": "Technologies for regulatory compliance and risk management."
+        },
+        {
+          "name": "Digital Payment Systems",
+          "description": "Innovations in digital payments and their implications."
+        },
+        {
+          "name": "Cryptocurrencies and Tokenization",
+          "description": "Exploring the role of cryptocurrencies and digital tokens."
+        },
+        {
+          "name": "Cybersecurity in Finance",
+          "description": "Addressing cybersecurity challenges in financial technologies."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of emerging financial technologies and their impact."
+        },
+        {
+          "name": "Future Trends in Fintech",
+          "description": "Emerging trends and future developments in financial technologies."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "courseName": "Investment Psychology",
+      "rating": 4.7,
+      "image": "InvestmentPsychology.jpg",
+      "description": "Understand the psychological factors affecting investment decisions.",
+      "detailedInfo": "This course delves into the psychological aspects of investing, including investor behavior, decision-making processes, and emotional biases.",
+      "professor": "Dr. Laura Wilson",
+      "subtopics": [
+        {
+          "name": "Introduction to Investment Psychology",
+          "description": "Overview of psychological principles relevant to investing."
+        },
+        {
+          "name": "Behavioral Biases",
+          "description": "Common biases affecting investment decisions."
+        },
+        {
+          "name": "Emotional Investing",
+          "description": "How emotions impact investment choices and strategies."
+        },
+        {
+          "name": "Cognitive Errors in Investing",
+          "description": "Understanding cognitive errors and their effects on investment decisions."
+        },
+        {
+          "name": "Investor Behavior",
+          "description": "Analyzing investor behavior and market trends."
+        },
+        {
+          "name": "Decision-Making Processes",
+          "description": "How decision-making processes influence investment outcomes."
+        },
+        {
+          "name": "Overcoming Biases",
+          "description": "Strategies for overcoming psychological biases in investing."
+        },
+        {
+          "name": "Psychological Tools for Investors",
+          "description": "Tools and techniques for improving investment decision-making."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of psychological factors affecting investment decisions."
+        },
+        {
+          "name": "Future Trends in Investment Psychology",
+          "description": "Emerging trends and future research in investment psychology."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "courseName": "Behavioral Finance",
+      "rating": 4.7,
+      "image": "BehavioralFinance.jpg",
+      "description": "Explore how psychological factors affect financial markets and investor behavior.",
+      "detailedInfo": "This course examines the impact of psychology on financial decision-making and market dynamics, including behavioral finance theories and empirical research.",
+      "professor": "Dr. Samuel Johnson",
+      "subtopics": [
+        {
+          "name": "Introduction to Behavioral Finance",
+          "description": "Basics of behavioral finance and its relevance to financial markets."
+        },
+        {
+          "name": "Heuristics and Biases",
+          "description": "Common heuristics and biases affecting financial decisions."
+        },
+        {
+          "name": "Market Anomalies",
+          "description": "Understanding anomalies and inefficiencies in financial markets."
+        },
+        {
+          "name": "Investor Sentiment",
+          "description": "The role of investor sentiment in market movements."
+        },
+        {
+          "name": "Behavioral Models",
+          "description": "Models and theories in behavioral finance."
+        },
+        {
+          "name": "Financial Decision-Making",
+          "description": "How psychological factors influence financial decision-making."
+        },
+        {
+          "name": "Behavioral Finance Research",
+          "description": "Recent research and findings in behavioral finance."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of behavioral finance concepts applied to real-world scenarios."
+        },
+        {
+          "name": "Behavioral Finance in Practice",
+          "description": "How to apply behavioral finance principles in investment strategies."
+        },
+        {
+          "name": "Future Trends in Behavioral Finance",
+          "description": "Emerging trends and future directions in behavioral finance research."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "courseName": "Financial Risk Management",
+      "rating": 4.6,
+      "image": "RiskManagement.jpg",
+      "description": "Learn to identify, assess, and manage financial risks in various contexts.",
+      "detailedInfo": "This course focuses on the principles and techniques of financial risk management, including risk assessment, mitigation strategies, and regulatory considerations.",
+      "professor": "Dr. Alice Williams",
+      "subtopics": [
+        {
+          "name": "Introduction to Financial Risk Management",
+          "description": "Fundamentals of financial risk management and its importance."
+        },
+        {
+          "name": "Risk Identification",
+          "description": "Identifying various types of financial risks."
+        },
+        {
+          "name": "Risk Assessment Techniques",
+          "description": "Techniques for assessing financial risks."
+        },
+        {
+          "name": "Risk Mitigation Strategies",
+          "description": "Strategies for mitigating financial risks."
+        },
+        {
+          "name": "Regulatory Considerations",
+          "description": "Understanding regulations related to financial risk management."
+        },
+        {
+          "name": "Risk Management Tools",
+          "description": "Tools and software for managing financial risks."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Examples of financial risk management in practice."
+        },
+        {
+          "name": "Emerging Risks",
+          "description": "Exploring new and emerging financial risks."
+        },
+        {
+          "name": "Risk Management Frameworks",
+          "description": "Frameworks for implementing risk management practices."
+        },
+        {
+          "name": "Future Trends in Risk Management",
+          "description": "Emerging trends and future directions in financial risk management."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "courseName": "Advanced Financial Planning",
+      "rating": 4.7,
+      "image": "FinancialPlanning.jpg",
+      "description": "Develop advanced skills in financial planning for comprehensive personal and business financial strategies.",
+      "detailedInfo": "This course covers advanced techniques in financial planning, including tax optimization, retirement planning, and estate planning.",
+      "professor": "Dr. Karen Smith",
+      "subtopics": [
+        {
+          "name": "Advanced Tax Strategies",
+          "description": "Techniques for optimizing tax outcomes."
+        },
+        {
+          "name": "Retirement Planning",
+          "description": "Strategies for planning a financially secure retirement."
+        },
+        {
+          "name": "Estate Planning",
+          "description": "Planning for the transfer of assets and estate management."
+        },
+        {
+          "name": "Investment Planning",
+          "description": "Advanced methods for developing investment strategies."
+        },
+        {
+          "name": "Risk Management in Financial Planning",
+          "description": "Assessing and managing risks in financial planning."
+        },
+        {
+          "name": "Client Communication",
+          "description": "Effective communication strategies with clients."
+        },
+        {
+          "name": "Financial Planning Software",
+          "description": "Using software tools for financial planning."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples and case studies in financial planning."
+        },
+        {
+          "name": "Ethical Considerations",
+          "description": "Ethics and professional standards in financial planning."
+        },
+        {
+          "name": "Future Trends in Financial Planning",
+          "description": "Emerging trends and innovations in the field."
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "courseName": "Behavioral Economics",
+      "rating": 4.8,
+      "image": "BehavioralEconomics.jpg",
+      "description": "Explore the psychological factors that influence economic decision-making.",
+      "detailedInfo": "This course delves into how psychological factors affect economic choices and market outcomes, including biases and heuristics.",
+      "professor": "Prof. Rachel Adams",
+      "subtopics": [
+        {
+          "name": "Introduction to Behavioral Economics",
+          "description": "Fundamentals of behavioral economics and its scope."
+        },
+        {
+          "name": "Heuristics and Biases",
+          "description": "Common cognitive biases and heuristics affecting economic decisions."
+        },
+        {
+          "name": "Prospect Theory",
+          "description": "Understanding how people make decisions under risk."
+        },
+        {
+          "name": "Behavioral Finance",
+          "description": "Application of behavioral economics to financial markets."
+        },
+        {
+          "name": "Market Anomalies",
+          "description": "Exploring anomalies and inefficiencies in markets."
+        },
+        {
+          "name": "Decision-Making Processes",
+          "description": "How individuals and organizations make economic decisions."
+        },
+        {
+          "name": "Experimental Economics",
+          "description": "Using experiments to study economic behavior."
+        },
+        {
+          "name": "Policy Implications",
+          "description": "Implications of behavioral economics for public policy."
+        },
+        {
+          "name": "Behavioral Interventions",
+          "description": "Designing interventions to improve decision-making."
+        },
+        {
+          "name": "Future Directions",
+          "description": "Emerging research and future directions in behavioral economics."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "courseName": "Real Estate Valuation",
+      "rating": 4.7,
+      "image": "RealEstateValuation.jpg",
+      "description": "Learn how to accurately value real estate properties for investment and appraisal purposes.",
+      "detailedInfo": "This course covers techniques and methodologies for valuing real estate properties, including market analysis and valuation models.",
+      "professor": "Dr. Mark Wilson",
+      "subtopics": [
+        {
+          "name": "Introduction to Real Estate Valuation",
+          "description": "Overview of real estate valuation methods and principles."
+        },
+        {
+          "name": "Market Analysis",
+          "description": "Techniques for analyzing real estate markets."
+        },
+        {
+          "name": "Valuation Methods",
+          "description": "Different methods for valuing real estate properties."
+        },
+        {
+          "name": "Income Approach",
+          "description": "Valuing properties based on income potential."
+        },
+        {
+          "name": "Cost Approach",
+          "description": "Valuing properties based on replacement cost."
+        },
+        {
+          "name": "Sales Comparison Approach",
+          "description": "Comparing sales data to value properties."
+        },
+        {
+          "name": "Appraisal Reports",
+          "description": "Preparing and interpreting appraisal reports."
+        },
+        {
+          "name": "Legal and Regulatory Issues",
+          "description": "Understanding legal aspects of real estate valuation."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world examples of property valuation."
+        },
+        {
+          "name": "Future Trends in Real Estate Valuation",
+          "description": "Emerging trends and technologies in valuation."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "courseName": "Advanced Data Analytics for Finance",
+      "rating": 4.8,
+      "image": "DataAnalyticsFinance.jpg",
+      "description": "Develop advanced skills in data analytics specifically for financial applications.",
+      "detailedInfo": "This course explores advanced data analytics techniques and tools used in finance, including predictive modeling and data visualization.",
+      "professor": "Prof. Samuel Carter",
+      "subtopics": [
+        {
+          "name": "Introduction to Data Analytics in Finance",
+          "description": "Overview of data analytics applications in finance."
+        },
+        {
+          "name": "Predictive Modeling",
+          "description": "Techniques for building predictive models for financial forecasting."
+        },
+        {
+          "name": "Data Visualization",
+          "description": "Creating visual representations of financial data."
+        },
+        {
+          "name": "Big Data in Finance",
+          "description": "Handling and analyzing large datasets in finance."
+        },
+        {
+          "name": "Algorithmic Trading Models",
+          "description": "Developing models for algorithmic trading."
+        },
+        {
+          "name": "Risk Analysis and Management",
+          "description": "Using data analytics for risk assessment and management."
+        },
+        {
+          "name": "Financial Forecasting",
+          "description": "Techniques for forecasting financial trends and outcomes."
+        },
+        {
+          "name": "Machine Learning in Finance",
+          "description": "Applying machine learning techniques to financial data."
+        },
+        {
+          "name": "Case Studies",
+          "description": "Real-world applications of data analytics in finance."
+        },
+        {
+          "name": "Future Trends in Financial Data Analytics",
+          "description": "Emerging trends and technologies in financial data analytics."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "courseName": "Advanced Investment Strategies",
+      "rating": 4.9,
+      "image": "InvestmentStrategies.jpg",
+      "description": "Explore sophisticated investment strategies for maximizing returns and managing risks.",
+      "detailedInfo": "This course covers advanced investment strategies including hedge funds, private equity, and alternative investments.",
+      "professor": "Dr. Olivia Johnson",
+      "subtopics": [
+        {
+          "name": "Introduction to Advanced Investment Strategies",
+          "description": "Overview of advanced strategies and their benefits."
+        },
+        {
+          "name": "Hedge Fund Strategies",
+          "description": "Exploring various hedge fund investment strategies."
+        },
+        {
+          "name": "Private Equity",
+          "description": "Understanding private equity investments and strategies."
+        },
+        {
+          "name": "Alternative Investments",
+          "description": "Types and strategies of alternative investments."
+        },
+        {
+          "name": "Risk Management Techniques",
+          "description": "Advanced techniques for managing investment risks."
+        },
+        {
+          "name": "Portfolio Optimization",
+          "description": "Strategies for optimizing investment portfolios."
+        },
+        {
+          "name": "Market Timing and Technical Analysis",
+          "description": "Techniques for timing investments and analyzing markets."
+        },
+        {
+          "name": "Behavioral Aspects of Investing",
+          "description": "Understanding the psychological factors influencing investment decisions."
+        },
+        {
+          "name": "Regulatory Considerations",
+          "description": "Regulations affecting advanced investment strategies."
+        },
+        {
+          "name": "Future Trends in Investment Strategies",
+          "description": "Emerging trends and innovations in investment strategies."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "courseName": "International Finance",
+      "rating": 4.7,
+      "image": "InternationalFinance.jpg",
+      "description": "Understand the complexities of finance in a global context and the impact of international factors on financial decisions.",
+      "detailedInfo": "This course explores international finance, including foreign exchange markets, international investment, and global financial risks.",
+      "professor": "Prof. Emily Davis",
+      "subtopics": [
+        {
+          "name": "Introduction to International Finance",
+          "description": "Overview of the international finance landscape."
+        },
+        {
+          "name": "Foreign Exchange Markets",
+          "description": "Understanding foreign exchange rates and currency markets."
+        },
+        {
+          "name": "International Investment",
+          "description": "Strategies for investing in global markets."
+        },
+        {
+          "name": "Global Financial Risks",
+          "description": "Identifying and managing risks in international finance."
+        },
+        {
+          "name": "International Financial Institutions",
+          "description": "Roles and functions of global financial institutions."
+        },
+        {
+          "name": "Cross-Border Mergers and Acquisitions",
+          "description": "Analyzing cross-border M&A transactions."
+        },
+        {
+          "name": "Global Financial Regulations",
+          "description": "Understanding international financial regulations and standards."
+        },
+        {
+          "name": "Emerging Markets",
+          "description": "Opportunities and risks in emerging market finance."
+        },
+        {
+          "name": "International Trade and Finance",
+          "description": "Linkages between international trade and finance."
+        },
+        {
+          "name": "Future Trends in International Finance",
+          "description": "Emerging trends and future directions in global finance."
+        }
+      ]
+    }
+  ]
+}

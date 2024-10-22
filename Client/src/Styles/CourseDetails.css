@@ -1,0 +1,124 @@
+.course-details-container {
+    padding: 2rem;
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+  }
+  
+  .course-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .course-image {
+    max-width: 100%;
+    border-radius: 0.5rem;
+  }
+  
+  .course-title {
+    font-size: 2.5rem;
+    color: var(--light-text);
+  }
+  
+  .course-rating, .course-description {
+    font-size: 1.8rem;
+  }
+  
+  .enroll {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--button);
+    color: var(--light-text);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+  }
+  
+  .enroll:hover {
+    background-color: #b91e01;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1.8rem;
+    border:  0.25px solid var(--button) ;
+}
+
+.back-button:hover {
+    background-color: var(--bg-light);
+    color: var(--light-text);
+    border:  0.25px solid var(--button) ;
+}
+
+  .course-overview {
+    margin: 2rem 0;
+    text-align: center;
+  }
+  
+  .course-overview h2 {
+    font-size: 2rem;
+    color: var(--light-text);
+    margin-bottom: 1rem;
+  }
+  
+  .accordion {
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid var(--light-darker1);
+  }
+  
+  .accordion-item:last-of-type {
+    border-bottom: none;
+  }
+  
+  .accordion-header {
+    background-color: var(--bg-light);
+    color: var(--text-color);
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid var(--light-darker1);
+    position: relative;
+  }
+  
+  .accordion-content {
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    padding: 0;
+    background-color: var(--bg-light);
+  }
+  
+  .accordion-header.active + .accordion-content {
+    max-height: 500px;
+    padding: 1rem;
+  }
+  
+  .accordion-icon {
+    font-size: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .accordion-header .accordion-icon {
+    transform: rotate(0deg);
+  }
+  
+  .accordion-header.active .accordion-icon {
+    transform: rotate(180deg);
+  }
+  

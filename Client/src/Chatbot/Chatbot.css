@@ -1,0 +1,133 @@
+:root {
+  --text-color: #adb5bd;
+  --bg-light: #343a40;
+  --bg-dark: black;
+  --light-text: #f8f9fa;
+  --light-darker1: #b9b9b9;
+  --active: #212529;
+  --button: #dc2f02;
+}
+
+.chatbot-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  height: 100vh; /* Full viewport height */
+  width: 98vw; /* Full viewport width */
+  position: relative; /* Allow absolute positioning for child elements */
+}
+
+.chatbox {
+  width: 100%; /* Full width */
+  height: 100vh; /* Full height */
+  padding: 1.5rem;
+  background-color: var(--bg-dark);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: var(--light-text);
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.chatOutput {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  background-color: var(--bg-dark);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  color: var(--light-darker1);
+  font-size: 0.9rem;
+  border:0.5px solid #f8f9fa ;
+}
+
+.chatOutput::-webkit-scrollbar {
+  width: 8px;
+}
+
+.chatOutput::-webkit-scrollbar-track {
+  background: var(--bg-light);
+  border-radius: 4px;
+}
+
+.chatOutput::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+  border-radius: 4px;
+}
+
+.chatOutput p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.chatOutput p strong {
+  color: var(--light-text);
+  font-weight: 600;
+  
+}
+
+input[type="text"] {
+  display: flex;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #f8f9fa; /* Changed border color */
+  background-color: var(--bg-dark);
+  color: var(--light-text);
+  font-size: 1.3rem;
+}
+
+input[type="text"]::placeholder {
+  color: var(--text-color);
+}
+
+.chatBtnContainer {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem 1.3rem;
+  border-radius: 0.375rem;
+  border: none;
+  font-size: 1.3rem;
+  background-color: var(--button);
+  color: var(--light-text);
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  
+}
+
+button:hover {
+  background-color: #e74c3c;
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+.clearChatBtn {
+  background-color: var(--bg-dark);
+  color: var(--light-text);
+}
+
+.clearChatBtn:hover {
+  background-color: var(--active);
+}
+
+.bot-response {
+  font-weight: 500;
+  color: white;
+}

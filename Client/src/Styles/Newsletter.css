@@ -1,0 +1,71 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02;
+}
+
+.newsletter-container {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.newsletter-title {
+    color: var(--light-text);
+    font-size: 5.5rem;
+    margin-bottom: 1rem;
+    font-weight: 100;
+}
+
+.newsletter-subtitle {
+    color: var(--light-darker1);
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    font-weight: 100;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-input {
+    padding: 1rem;
+    border: 1px solid var(--button);
+    border-radius: 0.5rem;
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    max-width: 300px;
+}
+
+.newsletter-input::placeholder {
+    color: var(--text-color);
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.newsletter-button {
+    padding: 1rem 2rem;
+    background-color: var(--button);
+    color: var(--light-text);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 100;
+}
+
+.newsletter-button:hover {
+    background-color: darken(var(--button), 10%);
+}

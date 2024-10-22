@@ -1,0 +1,100 @@
+/* CSS for changing the placeholder text color to white */
+.white-placeholder::placeholder {
+    color: white;
+}
+
+/* CSS for the dark gray background and white text in the Income and Expense tables */
+.dark-gray-table {
+    background-color: #212529 !important; /* Dark gray color */
+    color: white !important; /* White text color */
+    width: 100% !important; /* Ensure tables take full width of their container */
+    max-width: 800px; /* Set a maximum width for the tables */
+    margin: 0 auto; /* Center the tables horizontally */
+    border-collapse: separate; /* Prevent border collapse */
+}
+
+/* Ensure table header and cell text is white */
+.dark-gray-table .ant-table-thead > tr > th {
+    color: white !important; /* White text color for headers */
+    background-color: #343a40 !important; /* Slightly lighter gray background for headers */
+}
+
+/* Ensure headings for Income and Expense tables are white */
+.dark-gray-table .ant-card-head-title {
+    color: white !important; /* White text color for card headings */
+}
+
+/* Ensure table cells have a dark gray background */
+.dark-gray-table .ant-table-tbody > tr > td {
+    background-color: #212529 !important;
+    color: white !important; /* White text color for table cells */
+}
+
+/* Remove hover effect on table rows */
+.dark-gray-table .ant-table-tbody > tr:hover {
+    background-color: #212529 !important; /* Keep background color same as non-hover state */
+}
+
+/* Remove hover effect on table cells */
+.dark-gray-table .ant-table-tbody > tr > td:hover {
+    background-color: #212529 !important; /* Keep background color same as non-hover state */
+}
+
+/* Styling for buttons inside the dark gray table */
+.dark-gray-table .ant-btn {
+    color: white !important;
+    border-color: white !important;
+}
+
+/* Remove hover effect on buttons */
+.dark-gray-table .ant-btn:hover {
+    color: white !important; /* Keep text color white */
+    background-color: #212529 !important; /* Keep button background dark gray */
+    border-color: white !important; /* Keep border color white */
+}
+
+/* Additional styling for dashboard container */
+.dashboard-container {
+    padding: 20px;
+}
+
+/* Style for the analyze button */
+.analyze-button {
+    margin: 10px 0;
+    color: aliceblue;
+}
+
+/* Flexbox styling for the cards */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Dark gray styling for the input field */
+.dark-gray-input {
+    background-color: #212529 !important; /* Dark gray background */
+    color: white !important; /* White text color */
+    border: 1px solid #343a40 !important; /* Slightly lighter gray border */
+}
+
+/* Ensure placeholder text is white in the input field */
+.dark-gray-input::placeholder {
+    color: white !important;
+}
+
+/* Additional styling for total balance */
+.total-balance {
+    margin-bottom: 20px;
+    color: white; /* Ensure text color is white */
+}
+
+/* Additional styling for the chart container */
+.chart-container {
+    margin-top: 20px;
+}
+
+/* Ensure pie chart has proper sizing and margin */
+.chart-container .chartjs-render-monitor {
+    width: 100% !important;
+    height: 300px
+}

@@ -1,0 +1,28 @@
+@import 'flowbite/dist/flowbite.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Make sure the carousel container is responsive */
+.carousel-container {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.carousel-container .carousel {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Optional: Style for navigation buttons if needed */
+.carousel-container .carousel-indicators {
+  bottom: -30px; /* Adjust as needed */
+}
+
+.carousel-container .carousel-control-prev, 
+.carousel-container .carousel-control-next {
+  height: 100%;
+  width: 5%; /* Adjust size of navigation buttons */
+}

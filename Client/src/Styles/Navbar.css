@@ -1,0 +1,102 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02;
+}
+
+header {
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+}
+
+.container {
+    max-width: 140rem;
+    padding: 1.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand a {
+    font-size: 2.6rem;
+    font-weight: 500;
+    color: var(--light-text);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-brand img {
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: -5px;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: var(--text-color);
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid transparent;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+nav a:hover,
+nav a:focus {
+    color: var(--light-text);
+}
+
+nav a.active {
+    color: var(--light-text);
+    background-color: var(--active);
+    border: 1px solid var(--bg-light);
+}
+
+hr {
+    border: 0;
+    height: 0.25px;
+    background-color: var(--bg-light);
+    margin: 1rem 0;
+}
+
+.register {
+    background-color: var(--light-text);
+    color: var(--bg-dark);
+    font-weight: 500;
+}
+
+.register:hover {
+    color: var(--bg-light);
+    background-color: var(--light-darker1);
+}
+
+.login {
+    color: var(--light-text);
+    border: 0.25px solid var(--light-text);
+    font-weight: 500;
+}
+
+.login:hover {
+    background-color: var(--active);
+    color: var(--light-text);
+}

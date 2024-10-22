@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, 'Helvetica Neue', Arial, sans-serif;
+    color-scheme: dark;
+    
+  }
+  
+  :root {
+    --bg-color: #1e1e1e;
+    --btn-color: #dc2f02;
+    --dark-color: #242424; 
+    --helper-color: #f8f9fa; 
+    --text-color: #adb5bd; 
+    --bg-light: #212529; 
+    --bg-dark: black; 
+    --light-text: #f8f9fa; 
+    --active: #343a40;
+  }
+  
+  html {
+    font-size: 62.5%;
+    font-weight: 500;
+  }
+  
+  /* Base Style */
+  body {
+    margin: 0;
+    min-width: 32rem;
+    min-height: 100vh;
+    background-color: var(--bg-dark); /* Set dark background color */
+    color: var(--text-color); /* Set text color */
+  }
+  
+  h1 {
+    font-size: 4.5rem;
+    line-height: 1.1;
+    font-weight: bold;
+    color: var(--light-text); /* Heading color */
+  }
+  
+  p, li, label, input, textarea {
+    font-size: 1.8rem;
+    line-height: 1.56;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.06rem;
+    list-style: none;
+  }
+  
+  a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    color: var(--btn-color); /* Link color */
+    text-decoration: inherit;
+  }
+  
+  .container {
+    max-width: 140rem;
+    padding: 1.2rem 2.4rem;
+    margin: 0 auto;
+    background-color: var(--bg-dark); /* Dark background for the container */
+  }
+  
+  .grid {
+    display: grid;
+    gap: 6.4rem;
+  }
+  
+  .grid-two-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  button {
+    text-transform: capitalize;
+    
+    font-size: 1.7rem;
+    font-weight: 500;
+    background-color: var(--btn-color); 
+    border-radius: 0.8rem;
+    border: 0.1rem solid transparent;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 0.2rem var(--btn-color);
+    margin-left: 3.8rem;
+  }
+  
+  /* State Rules */
+  button:hover {
+    box-shadow: inset 0 0 0 0.2rem var(--bg-light); /* Button hover effect */
+  }
+  
+  a:hover, a:active {
+    color: var(--helper-color); /* Hover and active color for links */
+  }
+  
+  /* Hero Section */
+  .section-hero {
+    .grid {
+      align-items: center;
+    }
+    .hero-content {
+      p {
+        margin: 1rem 0 4.8rem 0;
+        &:first-child {
+          margin: 0 0 1.2rem 0;
+        }
+      }
+    }
+  
+    .hero-images {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 70%;
+      }
+    }
+  }
+  

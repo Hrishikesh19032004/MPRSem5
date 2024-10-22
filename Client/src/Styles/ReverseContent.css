@@ -1,0 +1,79 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02; /* Button color */
+}
+
+.section-reverse {
+    padding: 5rem 2rem;
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.grid-two-cols-reverse {
+    grid-template-columns: 1fr 1fr;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    color: var(--light-text);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+}
+
+.stat-number {
+    font-size: 3rem;
+    color: var(--button);
+}
+
+.stat-text {
+    font-size: 1.6rem;
+    color: var(--light-text);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}

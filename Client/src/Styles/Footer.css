@@ -1,0 +1,51 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02; /* Button color */
+}
+
+.footer {
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--light-text);
+}
+
+h2 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    color: var(--light-text);
+}
+
+.footer-description {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+
+.footer-links {
+    margin-top: 2rem;
+}
+
+.footer-link {
+    display: inline-block;
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color: var(--button);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: var(--light-darker1);
+}

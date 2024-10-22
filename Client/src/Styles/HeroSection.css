@@ -1,0 +1,103 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02;
+}
+
+
+
+.tagLine {
+    text-align: center;
+    padding: 5.5rem 2rem;
+}
+
+.tagLine h1 {
+    color: var(--light-text); 
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+
+.tagLine .shade {
+    background: linear-gradient(to right, var(--light-darker1), var(--bg-light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    font-size: 5.5rem;
+}
+
+.hero-subtitle {
+    font-size: 1.8rem;
+    color: var(--light-text); /* Set subtitle color to light */
+    margin-top: 1rem;
+}
+
+.subheading {
+    font-size: 1.5rem;
+    color: var(--light-text); /* Set subheading color to light */
+    margin-top: -15px; /* Adjust margin to fit your requirement */
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 1.5rem 5rem 1.5rem 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--button);
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    background-color: var(--bg-dark); /* Set input background to black */
+    color: var(--light-text); /* Set text color to light */
+}
+
+.input-container input:focus {
+    outline: none;
+    border-color: #dc2f02;
+}
+
+.input-container button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 1rem 1.5rem;
+    background-color: #dc2f02;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.input-container button:hover {
+    background-color: #b91e01;
+}
+
+.input-container .icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 2rem;
+}
+

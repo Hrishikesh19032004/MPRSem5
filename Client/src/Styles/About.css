@@ -1,0 +1,160 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #b9b9b9;
+    --active: #212529;
+    --button: #dc2f02; /* Button color */
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.about-page {
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.intro h1 {
+    color: var(--light-text);
+    font-size: 5.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    color: var(--light-text);
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.flip-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card-front {
+    background-color: var(--bg-light);
+    color: var(--light-text);
+}
+
+.card-back {
+    background-color: var(--light-darker1);
+    color: var(--bg-dark);
+    transform: rotateY(180deg);
+}
+
+.card h2 {
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.team-members {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.member-card {
+    background: var(--bg-light);
+    color: var(--light-text);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 300px;
+    margin: 1rem auto;
+    position: relative;
+}
+
+.member-card img {
+    width: 100%;
+    height: auto;
+}
+
+.member-info {
+    padding: 1rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: var(--button);
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #b91e01;
+}
+
+.about-journey {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.about-journey h2 {
+    color: var(--light-text);
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-journey p {
+    color: var(--light-text);
+    font-size: 1.8rem;
+    line-height: 1.6;
+}

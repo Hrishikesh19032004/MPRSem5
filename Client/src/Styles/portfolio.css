@@ -1,0 +1,105 @@
+:root {
+  --text-color: #adb5bd;
+  --bg-light: #343a40;
+  --bg-dark: black;
+  --light-text: #f8f9fa;
+  --light-darker1: #b9b9b9;
+  --active: #212529;
+  --button: #dc2f02; /* Button color */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: var(--bg-light);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--light-text);
+}
+
+.stock-form, .portfolio {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: var(--light-darker1);
+}
+
+input[type="text"], input[type="number"], select {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid var(--light-darker1);
+  border-radius: 4px;
+  background-color: var(--bg-dark);
+  color: var(--light-text);
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--button);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button);
+  opacity: 0.9;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--light-text);
+}
+
+th, td {
+  border: 1px solid var(--light-darker1);
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: var(--active);
+}
+
+.suggestions-box {
+  border: 1px solid var(--light-darker1);
+  max-height: 100px;
+  overflow-y: auto;
+  background-color: var(--bg-light);
+  position: absolute;
+  width: calc(100% - 20px);
+  z-index: 10;
+  color: var(--light-text);
+}
+
+.suggestions-box div {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.suggestions-box div:hover {
+  background-color: var(--active);
+}

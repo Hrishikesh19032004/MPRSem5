@@ -1,0 +1,120 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section-contact {
+    padding: 5rem 2rem;
+}
+
+.contact-title {
+    color: var(--light-text);
+    margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+    color: var(--light-darker1);
+    margin-bottom: 3rem;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-item {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-item h3 {
+    color: var(--active);
+}
+
+.contact-form {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form .form-control {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--light-darker1);
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+}
+
+.contact-form .form-control::placeholder {
+    color: var(--light-darker1);
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.contact-form .submit-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #c92a1c;
+}
+
+/* Styles for dark-themed input fields and textarea */
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: var(--bg-dark); /* Dark background */
+  color: #f8f9fa; /* Light text color */
+  
+  padding: 10px;
+  font-size: 1.6rem;
+  font-weight: 100;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+  color: var(--bg-dark) /* Lighter placeholder text */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  
+  background-color: var(--bg-dark); /* Slightly lighter background on focus */
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}

@@ -1,0 +1,91 @@
+:root {
+    --text-color: #adb5bd;
+    --bg-light: #343a40;
+    --bg-dark: black;
+    --light-text: #f8f9fa;
+    --light-darker1: #dee2e6;
+    --active: #212529;
+    --button: #dc2f02; /* Button color */
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.registration-page {
+    padding: 4rem 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.grid-two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.registration-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.registration-form {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 8px;
+    color: var(--light-text);
+}
+
+.registration-form h1 {
+    font-size: 5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+.registration-form label {
+    display: block;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid var(--light-darker1);
+    border-radius: 8px;
+    background-color: var(--bg-dark);
+    color: var(--light-text);
+    font-size: 1.6rem;
+}
+
+.registration-form input:focus {
+    outline: none;
+    border-color: var(--button);
+}
+
+.btn-submit {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    color: var(--light-text);
+    background-color: var(--button);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #b91e01;
+}
